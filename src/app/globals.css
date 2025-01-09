@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-img {
+  background-image: url("../../public/images/hero.jpeg");
+}
+
+.myDiscount {
+  transform: rotate(-90deg) translate(0, -62px);
+  transform-origin: 100%;
+}
